@@ -1,0 +1,71 @@
+
+header{
+  border:3px solid #272727;
+  padding: 10px;
+  width: 1300px;
+  background-color: black;
+}
+nav {
+    background-color: black;
+}
+#links{
+    background-color: black;
+    color:white;
+    font-size: 25px;
+}
+section{
+    border:1px solid black;
+    width: 700px;
+    padding: 10PX;
+    background-color: blue;
+}
+
+#mace´s{
+    border:1px solid black;
+    padding: 10px;
+    width: 600px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+ul{
+    border:2px solid black;
+    padding: 5px;
+    position: relative;
+    width: 590px;    
+    left: 722px;
+    top:-1080px;
+    list-style: none; 
+    background-color: tomato;
+}
+li{
+    padding: 80px;
+    font-size: 29px;
+    font-weight: bold;
+    border:1px solid black
+
+
+
+}
+
+footer{
+    border: 1px solid black;
+    width: 1325px;
+    padding: 20px;
+    background-color: turquoise;
+    font-weight: bold;
+    font-size: 23px;
+    position: relative;
+    top: -1050px;
+}
+button{
+    border-radius: 40px;
+    background-color: turquoise;
+    font-size: 35px;
+    
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: thistle;
+}
