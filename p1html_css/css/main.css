@@ -17,7 +17,7 @@ section{
     border:1px solid black;
     width: 700px;
     padding: 10PX;
-    background-color: blue;
+    background-color: rgb(38, 38, 39);
 }
 
 #mace´s{
@@ -36,7 +36,7 @@ ul{
     left: 722px;
     top:-1080px;
     list-style: none; 
-    background-color: tomato;
+    background-color: rgba(54, 24, 3, 0.801);
 }
 li{
     padding: 80px;
@@ -60,7 +60,7 @@ footer{
 }
 button{
     border-radius: 40px;
-    background-color: turquoise;
+    background-color: yellow;
     font-size: 35px;
     
 
