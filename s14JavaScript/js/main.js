@@ -18,7 +18,7 @@ let algo = dataArray.map(user => {
 console.log(algo);
 
 
-/*cars = [
+cars = [
     {
         year:"2000",
         maker:"Toyota",
@@ -62,15 +62,14 @@ console.log(algo);
         hp:"200"
     }
 ]
-var userCars=prompt("elige el año de un vehiculo")
- 
-const userCarsRequire= models=>{
-    if(userCars>=){
-       
-    }
+   const showCars = ()=>{
+       let userRequire= parseInt(prompt("ingresa el año del auto"))
+       let filterCars=cars.filter((car,index)=>{
+           return parseInt(car.year)>=userRequire
+           
+       })
+      filterCars.forEach(element => {
+          console.log(element)
+      });
+   }
     
-}
-    crear una función que pida al usuario un año (2000, 1989, etc).
-    la función debe extraer los autos del array cars, cuyo año sea mayor al indicado por el usuario
-    por cada auto extraído, mostrar al usuario un mensaje que diga "Opción ${indice}: ${fabricante del auto} ${nombre del auto} del año ${año de fabricación}, con ${hp} caballos de fuerza"
-*/
