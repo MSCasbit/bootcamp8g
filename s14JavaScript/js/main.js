@@ -73,3 +73,28 @@ cars = [
       });
    }
     
+   var car = [
+    [
+        "2010",
+        "Toyota",
+        "Supra",
+        "300"
+    ],
+    [
+        "2015",
+        "Mazda",
+        "RX7",
+        "350"
+    ],
+    [
+        "2015",
+        "Nissan",
+        "Skyline",
+        "300"
+    ]
+]
+
+ var {year,maker,model,hp}=car
+ var [a,b,c,d]=car
+ console.log(car)
+ 
