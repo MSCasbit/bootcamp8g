@@ -1,0 +1,23 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #555a5e;
+}
+
+#perro {
+  background: grey;
+  border-radius: 20px;
+}
+
+.form-control {
+  background-color: lightgray;
+}
+
+.formD {
+  color: white;
+  text-shadow: 3px 3px 4.5px;
+}
+/*# sourceMappingURL=style.css.map */
